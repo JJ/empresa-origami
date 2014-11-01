@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>La Empresa Origami</title>
+
+	<meta name="description" content="Presentación para foro emprendimiento">
+	<meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<link href="css/origami.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<!--script type="text/javascript" src="js/jquery-1.7.1.min.js"></script-->
+	<script type="text/javascript" src="js/jmpress.js"></script>
+
+</head>
+<body>
+
+  <div id="simple">
+
+    <section id="home">
+      <h1>La empresa origami</h1>
+    </section>      
+      <!-- Slides starts here -->
+
+<!-- Slides end here -->
+
+  </div> <!-- jmpress  -->
+
+  <div class="hint">
+    <p>Use <span class='hilite'>arrow keys</span> or <span class='hilite'>space bar</span> to navigate</p>
+  </div>
+
+<script type="text/javascript">
+ $(function() {
+   $('#simple').jmpress({stepSelector: "section",
+   animation: {transitionDuration: '2s',
+	       transitionDelay:'1s'}});
+ });
+</script>
+
+</body>
+</html>
