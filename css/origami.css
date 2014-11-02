@@ -59,6 +59,9 @@ section.active {
     border-radius: 30px;
 }
 
+#beans {
+    background:url(https://farm6.staticflickr.com/5011/5535638066_e22a345211_b_d.jpg);
+}
 /*
 section.active {
 	opacity: 1;
@@ -126,7 +129,7 @@ h1 {font-size:4em;
     margin: 20px 10px 20px 10px;
 }
 
-h1.img {font-size:5em;    
+h1.img {font-size:12em;    
 	padding: 20px;
 	font-family: "Jacques Francois", serif;
 	color: #111;
