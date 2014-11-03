@@ -59,6 +59,18 @@ section.active {
     border-radius: 30px;
 }
 
+#social { 
+       background:url(https://farm1.staticflickr.com/177/435550097_7663763bfd_o_d.jpg);   
+}
+
+#colaborativa { 
+       background:url(https://farm5.staticflickr.com/4042/4277140140_a144220ac5_b_d.jpg);   
+}
+
+#datos { 
+       background:url(https://farm1.staticflickr.com/40/111551078_0cc8a24481_o_d.jpg);   
+}
+
 #beans {
     background:url(https://farm6.staticflickr.com/5011/5535638066_e22a345211_b_d.jpg);
 }
@@ -138,6 +150,13 @@ h1.img {font-size:12em;
 	font-family: "Jacques Francois", serif;
 	color: #111;
 	background-color: rgba(241,240,255,0.4);
+       }
+
+h1.img2 {font-size:10em;    
+	padding: 20px;
+	font-family: "Jacques Francois", serif;
+	color: #111;
+	background-color: rgba(241,230,255,0.4);
        }
 
 .img {
